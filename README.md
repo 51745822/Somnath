@@ -1,7 +1,7 @@
-# HansWebApp
-HansWebApp for maven web app
+# SomsWebApp
+SomsWebApp for maven web app
 
-## By: Hansraj Mali
+## By: Somnath Mohanty
 Docker Training
 # Pre-reques:
 ---------------
@@ -16,7 +16,7 @@ Docker Training
 
 To create a simple java project using maven, you need to open command prompt and run the archetype:generate command of mvn tool:
 ----------------------------------------------------------------------------------------------------------------------------------
- mvn archetype:generate -DgroupId=com.javatpoint -DartifactId=HansWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+ mvn archetype:generate -DgroupId=com.javatpoint -DartifactId=SomsWebApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
  
  It will generate following code in the command prompt::
  ----------------------------------------------------------
@@ -31,7 +31,7 @@ To create a simple java project using maven, you need to open command prompt and
  Deploy and Run the Maven Web Project
  =======================================
  Deploy the project on the server and access it by the following url:
- http://<host-name>:<portnumber>/projectname, for example: http://localhost:8080/HansWebApp
+ http://<host-name>:<portnumber>/projectname, for example: http://localhost:8080/SomsWebApp
  By copying the generated war file onto /var/lib/tomcat7/webapp and restart the tomcat7 service
  
 For adding feature copy below lines and update index.html on line 33 
